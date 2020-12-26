@@ -205,7 +205,7 @@ static int AlphaBeta(int alpha, int beta, int depth, S_BOARD *pos, S_SEARCHINFO 
 	S_MOVELIST list[1];
     GenerateAllMoves(pos,list);
 
-    int MoveNum = 0;
+   	int MoveNum = 0;
 	int Legal = 0;
 	int OldAlpha = alpha;
 	int BestMove = NOMOVE;
