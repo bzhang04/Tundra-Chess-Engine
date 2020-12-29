@@ -2,7 +2,7 @@
 
 #include "stdio.h"
 #include "defs.h"
-#include eval.h
+#include "EVAL.h"
 
 int MaterialDraw(const S_BOARD *pos) {
 
