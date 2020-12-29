@@ -2,6 +2,7 @@
 
 #include "stdio.h"
 #include "defs.h"
+#include eval.h
 
 int MaterialDraw(const S_BOARD *pos) {
 
@@ -27,7 +28,7 @@ int MaterialDraw(const S_BOARD *pos) {
   return FALSE;
 }
 
-#define ENDGAME_MAT (1 * PieceVal[wR] + 2 * PieceVal[wN] + 2 * PieceVal[wP] + PieceVal[wK])
+// #define ENDGAME_MAT (1 * PieceVal[wR] + 2 * PieceVal[wN] + 2 * PieceVal[wP] + PieceVal[wK])
 
 int EvalPosition(const S_BOARD *pos) {
 
